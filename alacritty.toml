@@ -34,6 +34,7 @@ blink_interval = 800
 [keyboard]
 bindings = [
 { key = "A", mods = "Option|Shift", action = "SpawnNewInstance" },
+# Tabs don't seem to work on Linux.
 { key = "T", mods = "Option|Shift", action = "CreateNewTab" },
 { key = "R", mods = "Option|Shift", action = "SelectNextTab" },
 { key = "Y", mods = "Option|Shift", action = "SelectPreviousTab" },
