@@ -48,11 +48,11 @@ bindings = [
 { key = "8", mods = "Option|Shift", action = "SelectTab8" },
 { key = "9", mods = "Option|Shift", action = "SelectTab9" },
 { key = "U", mods = "Option|Shift", action = "SelectLastTab" },
-{ key = "N", mods = "Option|Super", action = "ToggleNormalSelection" },
-{ key = "V", mods = "Option|Super", action = "ToggleViMode" },
-{ key = "L", mods = "Option|Super", action = "ToggleLineSelection" },
-{ key = "B", mods = "Option|Super", action = "ToggleBlockSelection" },
-{ key = "O", mods = "Option|Super", action = "Open" },
+
+# { key = "L", mods = "Option|Super", action = "ToggleLineSelection" },
+# { key = "B", mods = "Option|Super", action = "ToggleBlockSelection" },
+# { key = "O", mods = "Option|Super", action = "Open" },
+# -- CreateNewWindow seems to do a tab on MacOS and a separate window on Linux --
 { key = "N", mods = "Option|Shift", action = "CreateNewWindow" },
 # Navigate word-by-word to right or left by holding Option (or Alt) + Left/Right arrows
 { key = "Left",  mods = "Alt", chars = "\u001bb", mode = "~Vi" },
